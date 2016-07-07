@@ -21,7 +21,9 @@ nav.navbar.navbar-default{
 color: #E8D5B7;
 	padding: 0 15px; height: 75px; line-height: 75px;
 }
-.navbar-brand{
+/* — Logo — */
+a.navbar-brand{
+  font-size: 2.25em;
   font-weight: 900;
 }
 
@@ -233,6 +235,7 @@ transform-style: preserve-3d;
 
 /* — Bottom featurette buttons— */
 #btnAdopt{
+    margin: 20px 10px 40px 0px;
     margin-right: 10px;
     display: inline-block;
     vertical-align: top;
@@ -283,6 +286,11 @@ transform-style: preserve-3d;
 
 
 /*** =========================================================== PRODUCT THUMBNAILS =========================================================== ***/
+
+.products{
+  margin-top: 50px;
+}
+
 .products .caption h3{
   font-size: 1.25em;
   font-weight: 700;
